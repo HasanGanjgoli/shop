@@ -1,0 +1,21 @@
+.wrapper {
+    width: 90%;
+    margin: 0.4em auto;
+}
+
+
+/* header */
+
+.header {
+    background-color: #232f3e;
+    color: #fff;
+    border-radius: 0.4em 0.4em 0 0;
+}
+
+.header a {
+    color: #bcbdc7;
+}
+
+.topinfo {
+    border-bottom: 0.2em solid #ddca88;
+}
