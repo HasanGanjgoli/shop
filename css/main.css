@@ -1,5 +1,5 @@
 .wrapper {
-    width: 90%;
+    width: 95%;
     margin: 0.4em auto;
 }
 
@@ -14,8 +14,35 @@
 
 .header a {
     color: #bcbdc7;
+    transition: all 0.4s linear;
 }
 
 .topinfo {
     border-bottom: 0.2em solid #ddca88;
+}
+
+.accountlist {
+    display: flex;
+}
+
+.topinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.farsi {
+    width: 2em;
+    vertical-align: middle;
+}
+
+.accountlink {
+    padding: 0.5em 0.6em;
+}
+
+.accountlink:hover {
+    color: #fff;
+}
+
+.languages {
+    padding: 0.5em 0.4em;
 }

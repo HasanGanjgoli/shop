@@ -10,7 +10,7 @@
     font-family: "IcoFont";
     font-weight: normal;
     font-style: "Regular";
-    src: url("./font/icofont/icofont.woff2") format("woff2"), url("./font/icofont/icofont.woff") format("woff");
+    src: url("../font/icofont/icofont.woff2") format("woff2"), url("../font/icofont/icofont.woff") format("woff");
 }
 
 [class^="icofont-"],
