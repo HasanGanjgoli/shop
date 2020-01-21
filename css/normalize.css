@@ -18,3 +18,12 @@ a {
     display: block;
     text-decoration: none;
 }
+
+.flex {
+    display: flex;
+}
+
+select,
+input {
+    font-family: inherit;
+}
