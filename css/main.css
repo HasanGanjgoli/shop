@@ -1,6 +1,7 @@
 .wrapper {
     width: 95%;
     margin: 0.4em auto;
+    box-shadow: 0 0 1em 0 #bcbdc7;
 }
 
 
@@ -170,4 +171,108 @@
     height: 2em;
     top: -11px;
     right: 177px;
+}
+
+
+/* main */
+
+.main {
+    background-color: #fff;
+}
+
+
+/* section slider */
+
+.slider {
+    height: 37em;
+}
+
+.l-ads {
+    width: 75%;
+    padding: 0.6em;
+}
+
+.r-ads {
+    width: 25%;
+    padding: 0.6em 0.6em 0.6em 0;
+}
+
+.rimg,
+.limg {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* top product */
+
+.topproduct {
+    background-color: #bcbdc7;
+}
+
+.topproductitem {
+    flex-grow: 1;
+}
+
+.topproductimage {
+    width: 6em;
+    height: 6em;
+    padding: 0.5em 0.3em;
+}
+
+.topproductimage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3em;
+}
+
+.topproductinfo {
+    align-self: center;
+}
+
+
+/* section top sell */
+
+.topselldetail {
+    flex-grow: 2;
+    border: 0.1em #f92321 solid;
+    margin: 0.3em;
+}
+
+.pimage {
+    width: 100%;
+    height: 100%;
+}
+
+.topselllist {
+    flex-grow: 3;
+    border: 0.1em #f92321 solid;
+}
+
+.tsitem {
+    width: 33%;
+    flex-grow: 1;
+}
+
+.tslist {
+    flex-wrap: wrap;
+}
+
+.aaa {
+    border: 0.1em #f92321 solid;
+    margin: 0.4em;
+    text-align: center;
+}
+
+.producttitle {
+    color: #89b2ff;
+    display: block;
+}
+
+.producttitle:hover {
+    color: rgb(236, 137, 9);
+}
+
+.priceitem {
+    color: #f92321;
 }
