@@ -17,6 +17,8 @@ ul {
 a {
     display: block;
     text-decoration: none;
+    transition: all 0.3s linear;
+    font-family: IRANSans;
 }
 
 .flex {

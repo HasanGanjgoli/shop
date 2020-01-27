@@ -235,6 +235,7 @@
 
 .topselldetail {
     flex-grow: 2;
+    width: 40%;
     border: 0.1em #f92321 solid;
     margin: 0.3em;
 }
@@ -242,10 +243,12 @@
 .pimage {
     width: 100%;
     height: 100%;
+    transition: all 0.5s linear;
 }
 
 .topselllist {
     flex-grow: 3;
+    width: 60%;
     border: 0.1em #f92321 solid;
 }
 
@@ -275,4 +278,69 @@
 
 .priceitem {
     color: #f92321;
+}
+
+.pro-image-ovrelay {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlayimage {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    opacity: 1;
+    transition: all 0.5s linear;
+}
+
+.aaa:hover .overlayimage,
+.aaa:hover .btn_d {
+    top: 0;
+    opacity: 1;
+}
+
+.aaa:hover .asl {
+    opacity: 0;
+}
+
+.aaa .btn_d {
+    position: absolute;
+    top: -100%;
+    right: 0;
+    width: 100%;
+    opacity: 1;
+    transition: all 0.5s linear;
+}
+
+.aaaa:hover .overlayimage,
+.aaaa:hover .btn_d {
+    top: 0;
+    opacity: 1;
+}
+
+.aaaa:hover .asl {
+    opacity: 0;
+}
+
+.aaaa .btn_d {
+    position: absolute;
+    top: -100%;
+    right: 0;
+    width: 100%;
+    opacity: 1;
+    transition: all 0.5s linear;
+}
+
+.listbottom {
+    width: 100%;
+}
+
+.itembottom {
+    border: 0.1em solid #f92321;
+    margin: 0.1em;
+}
+
+.imagebottom {
+    width: 100%;
 }
